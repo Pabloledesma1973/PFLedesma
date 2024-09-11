@@ -1,0 +1,30 @@
+.carousel-image {
+    height: 300px; /* Ajusta la altura */
+    object-fit: cover; /* Mantiene la proporción de la imagen y cubre todo el espacio disponible */
+  }
+
+  @media (max-width: 768px) {
+    header {
+      padding: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .flip-card-inner {
+      margin-bottom: 20px;
+      /* Reduce el espacio en pantallas pequeñas */
+    }
+  }/* Ajuste del padding en el main */
+@media (min-width: 992px) {
+  main {
+    padding-top: 100px;
+    /* Para pantallas grandes, dejamos un espacio de 100px */
+  }
+}
+
+@media (max-width: 991.98px) {
+  main {
+    padding-top: 0;
+    /* En pantallas pequeñas, eliminamos el padding para que no se note */
+  }
+}

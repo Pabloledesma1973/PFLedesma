@@ -1,0 +1,54 @@
+main {
+  background-color: $background-color;
+  padding: $section-padding 0;
+
+  h1, h2 {
+      font-family: $font-family-primary;
+      color: $primary-color;
+      text-align: center;
+  }
+
+  h1 {
+      font-size: $heading-font-size;
+      margin-bottom: $spacing-unit;
+  }
+
+  h2 {
+      font-size: $subheading-font-size;
+      margin-bottom: $spacing-unit;
+  }
+
+  p {
+      font-family: $font-family-primary;
+      font-size: $text-font-size;
+      color: $text-color;
+      text-align: center;
+      margin-bottom: $spacing-unit * 2;
+  }
+
+  // Equipo Directivo y Equipo de Empleados
+  .team-member {
+      margin-bottom: $row-margin-bottom;
+
+      img {
+          width: $image-size;
+          height: $image-size;
+          object-fit: cover;
+          border-radius: $border-radius-circle;
+          display: block;
+          margin: 0 auto $spacing-unit;
+      }
+
+      h5 {
+          font-family: $font-family-primary;
+          color: $primary-color;
+          margin-bottom: $spacing-unit / 2;
+      }
+
+      p {
+          color: $secondary-color;
+          font-size: $text-font-size;
+          margin-bottom: $spacing-unit;
+      }
+  }
+}

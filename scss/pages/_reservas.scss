@@ -1,0 +1,55 @@
+  // Estilos SASS
+main {
+  .container {
+    margin-top: $form-margin-top;
+  }
+
+  form {
+    background-color: $form-bg-color;
+    padding: $form-padding;
+    border: 1px solid $form-border-color;
+    border-radius: 5px;
+  }
+
+  label {
+    color: $label-color;
+    font-size: $label-font-size;
+    margin-bottom: $label-margin-bottom;
+  }
+
+  .form-control {
+    font-size: $input-font-size;
+    height: $input-height;
+    margin-bottom: $input-margin-bottom;
+    border-color: $form-border-color;
+
+    &:focus {
+      border-color: $input-focus-border-color;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+
+    &::placeholder {
+      color: $input-placeholder-color;
+    }
+  }
+
+  #mensaje {
+    height: $textarea-height;
+  }
+
+  .form-check {
+    margin-bottom: $form-check-margin-bottom;
+  }
+
+  .btn-primary {
+    background-color: $btn-primary-bg;
+    color: $btn-text-color;
+    font-size: $button-font-size;
+    padding: $button-padding;
+    margin-right: $button-margin-right;
+
+    &:hover {
+      background-color: $btn-primary-hover-bg;
+    }
+  }
+}

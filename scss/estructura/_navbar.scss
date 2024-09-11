@@ -1,0 +1,81 @@
+.navbar {
+  background-color: $bg-navbar-color;
+  padding: 1rem;
+
+  .navbar-brand {
+    color: $brand-color;
+    font-weight: bold;
+
+    &:hover {
+      color: lighten($brand-color, 10%);
+    }
+  }
+
+  .nav-link {
+    color: $text-color;
+
+    &:hover {
+      color: lighten($text-color, 10%);
+    }
+  }
+
+  .navbar-toggler-icon {
+    color: $text-color;
+  }
+}
+/* Opcional: ajustes visuales para las transiciones en el navbar */
+.navbar-toggler {
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler.collapsed {
+  transform: rotate(0);
+}
+
+.navbar-toggler:not(.collapsed) {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+header {
+    padding: 1rem;
+}
+}
+.navbar-toggler {
+border-radius: 50%; /* Redondear el botón de toggler */
+}
+
+.navbar-nav .nav-link {
+font-weight: bold; /* Letra en negrita */
+}
+
+/* Opcional: Redondear los botones de enlace */
+.navbar-nav .nav-link {
+border-radius: 5px; /* Redondear los enlaces */
+padding: 8px 16px; /* Ajustar el padding para mejorar el aspecto de los botones */
+}
+
+/* Opcional: Añadir un estilo visual para los botones cuando se pasen sobre */
+.navbar-nav .nav-link:hover {
+background-color: rgba(0, 0, 0, 0.1); /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    /* Centra los elementos del menú en pantallas pequeñas */
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    /* Ajusta el tamaño del logo y del texto en pantallas pequeñas */
+  }
+
+  /* Ajusta el contenedor principal para evitar solapamiento */
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

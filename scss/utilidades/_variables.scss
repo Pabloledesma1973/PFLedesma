@@ -1,0 +1,230 @@
+// Variable SASS para la fuente Roboto
+$font-family-roboto: 'Roboto', sans-serif;
+
+
+// Variables de colores
+$bg-light: #f8f9fa;
+$bg-info-subtle: #d1ecf1;
+$text-color: #000; // Color del texto general
+$link-color: #007bff; // Color de los enlaces
+
+// Variables de espaciado
+$container-padding: 1rem;
+$ms-2: 0.5rem; // Margen izquierdo para el logo y nombre
+
+// Variables de dimensiones
+$navbar-height: 60px;
+$logo-width: 50px; // Ancho del logo
+
+// Variables de responsividad
+$breakpoint-lg: 992px;
+$navbar-toggler-icon-size: 24px; // Tamaño del ícono del toggler
+
+// Variables de colores
+$bg-info-subtle: #d1ecf1;
+$text-color: #212529;
+$heading-color: #343a40;
+
+// Variables de espaciado card
+$container-padding: 5rem;
+$section-spacing: 5rem;
+$card-margin-bottom: 1.5rem;
+$card-padding: 1rem;
+$main-padding-top: 80px;
+
+// Variables de tipografía card
+$heading-font-size: 2rem;
+$heading-margin-bottom: 1.5rem;
+$text-font-size: 1rem;
+$text-line-height: 1.6;
+
+// Variables de dimensión card
+$card-img-height: 250px;
+$carousel-img-height: 450px;
+
+// Variables de responsividad card
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+
+
+// Variables de colores formulario
+$form-bg-color: #f8f9fa;
+$form-border-color: #ced4da;
+$input-focus-border-color: #80bdff;
+$input-placeholder-color: #6c757d;
+$label-color: #212529;
+$btn-primary-bg: #007bff;
+$btn-primary-hover-bg: darken($btn-primary-bg, 10%);
+$btn-text-color: #fff;
+
+// Variables de espaciado form
+$form-padding: 2rem;
+$input-margin-bottom: 1rem;
+$label-margin-bottom: 0.5rem;
+$form-margin-top: 3rem;
+$form-check-margin-bottom: 1rem;
+$button-margin-right: 0.5rem;
+
+// Variables de tipografía form
+$label-font-size: 1rem;
+$input-font-size: 1rem;
+$button-font-size: 1rem;
+
+// Variables de dimensión form
+$input-height: 40px;
+$textarea-height: 120px;
+$button-padding: 0.5rem 1rem;
+
+
+// Variables card pagina principal
+$navbar-background-color: #db9292;
+$hover-background-color: #dee2da;
+$card-shadow-color: rgba(0, 0, 0, 0.1);
+$card-hover-shadow-color: rgba(0, 0, 0, 0.2);
+$card-scale: 1.05;
+$card-hover-scale: 1.1;
+$flip-card-back-color: #2980b9;
+$flip-card-front-color: #fff;
+$text-color: black;
+$visited-color: black;
+
+
+
+
+// Colores pagina destinos - videos 
+$primary-text-color: #000; // Color principal para los textos
+$secondary-text-color: #555; // Color secundario para los textos
+$section-background-color: #f8f9fa; // Color de fondo de la sección
+$heading-color: #333; // Color para los títulos y encabezados
+
+// Tipografía destinos - videos 
+$font-family-primary: "Roboto", sans-serif; // Fuente principal
+$heading-font-size: 2rem; // Tamaño de fuente para los títulos
+$paragraph-font-size: 1rem; // Tamaño de fuente para los párrafos
+$video-title-font-size: 1.25rem; // Tamaño de fuente para los títulos de videos
+
+// Espaciado destinos - videos 
+$section-margin: 5rem 0; // Margen superior e inferior de las secciones
+$heading-margin-bottom: 2rem; // Margen inferior de los títulos
+$paragraph-margin-bottom: 3rem; // Margen inferior de los párrafos
+$video-title-margin-top: 1.5rem; // Margen superior para los títulos de los videos
+
+// Layout destinos - videos 
+$container-max-width: 1200px; // Máximo ancho del contenedor
+$video-aspect-ratio: 16/9; // Relación de aspecto para los videos
+
+
+
+
+// Colores page promociones
+$background-color-card-back: rgba(0, 0, 0, 0.7); // Color de fondo de la parte trasera de las tarjetas
+$text-color-card-back: #ffffff; // Color del texto en la parte trasera de las tarjetas
+$heading-color-card-back: #ffffff; // Color de los títulos en las tarjetas traseras
+$carousel-control-color: rgba(0, 0, 0, 0.5); // Color de los controles del carrusel
+$carousel-bg-color: #000; // Color de fondo para las imágenes del carrusel
+
+// Tipografía page promociones
+$font-family-primary: "Roboto", sans-serif; // Fuente primaria
+$font-size-base: 1rem; // Tamaño de fuente base
+$font-size-heading: 1.5rem; // Tamaño de fuente para los encabezados en tarjetas
+$font-size-card-text: 0.875rem; // Tamaño de fuente para el texto en las tarjetas
+
+// Tamaños de tarjetas page promociones
+$card-width: 300px; // Ancho fijo para las tarjetas
+$card-height: 300px; // Altura fija para las tarjetas
+
+// Espaciado page promociones
+$card-margin-bottom: 2rem; // Espaciado inferior entre las tarjetas
+$heading-margin: 10px 0; // Margen para los títulos de las tarjetas
+$card-padding: 10px; // Padding para la parte trasera de las tarjetas
+
+// Layout page promociones
+$container-padding: 15px; // Padding general para el contenedor
+$row-margin-top-bottom: 5rem; // Márgenes para la fila de tarjetas
+
+// Carousel page promociones
+$carousel-height: auto; // Altura de las imágenes del carrusel
+
+
+// Colores page vuelos
+$primary-color: #0d6efd; // Color primario para encabezados de tarjetas
+$secondary-color: #ffffff; // Color secundario para el texto sobre fondo primario
+$background-color-card: #f8f9fa; // Color de fondo para las tarjetas de vuelos
+$border-color-card: #dee2e6; // Color del borde de las tarjetas
+
+// Tipografía page vuelos
+$font-family-base: "Arial", sans-serif; // Fuente base
+$font-size-base: 1rem; // Tamaño de fuente base
+$font-size-title: 1.25rem; // Tamaño de fuente para los títulos de las tarjetas
+$font-size-text: 1rem; // Tamaño de fuente para el texto en las tarjetas
+
+// Espaciado page vuelos
+$spacing-base: 1rem; // Espaciado base general
+$spacing-card-margin: 1.5rem; // Margen inferior entre las tarjetas
+$spacing-card-padding: 1.25rem; // Padding interior de las tarjetas
+$container-margin-top-bottom: 5rem; // Margen superior e inferior del contenedor principal
+$input-padding: 0.75rem; // Padding para el input de fecha
+
+// Tamaños page vuelos
+$input-font-size: 1rem; // Tamaño de fuente del input de fecha
+$card-header-padding: 0.75rem 1rem; // Padding para los encabezados de las tarjetas
+$card-height: auto; // Altura de las tarjetas de vuelo
+
+
+// Variables SASS pagina Nosotros
+
+// Colores
+$primary-color: #007bff; // Color principal de la agencia
+$secondary-color: #6c757d; // Color secundario (para subtítulos y textos secundarios)
+$text-color: #333; // Color del texto principal
+$background-color: #f8f9fa; // Color de fondo para la sección
+
+// Tipografía
+$font-family-primary: 'Arial', sans-serif;
+$heading-font-size: 2rem; // Tamaño de los títulos principales
+$subheading-font-size: 1.5rem; // Tamaño de los subtítulos
+$text-font-size: 1rem; // Tamaño de los párrafos
+
+// Espaciado
+$spacing-unit: 1.5rem; // Unidad de espaciado
+$section-padding: 3rem; // Espaciado para las secciones
+$row-margin-bottom: 2rem; // Margen inferior entre filas
+
+// Tamaños de imagen
+$image-size: 200px; // Tamaño de las imágenes de los miembros del equipo
+
+// Bordes
+$border-radius-circle: 50%; // Bordes circulares para las imágenes
+
+// Variables SASS  Footer
+
+// Colores
+$footer-bg-color: #e9ecef; // Color de fondo del footer (info-subtle)
+$section-bg-color: #f8f9fa; // Color de fondo de las secciones internas
+$btn-facebook-color: #3b5998; // Color del botón de Facebook
+$btn-twitter-color: #1da1f2; // Color del botón de Twitter
+$btn-instagram-color: #e1306c; // Color del botón de Instagram
+$text-color: #333; // Color del texto principal
+
+// Tipografía
+$font-family-primary: 'Arial', sans-serif;
+$heading-font-size: 1.5rem; // Tamaño de los títulos
+$paragraph-font-size: 1rem; // Tamaño del texto de los párrafos y correos electrónicos
+
+// Espaciado
+$spacing-unit: 1rem; // Unidad de espaciado
+$section-padding: 1rem; // Espaciado para las secciones
+$icon-spacing: 0.5rem; // Espaciado entre los iconos
+
+// Tamaños de iconos y botones
+$icon-size: 24px; // Tamaño de los iconos
+$btn-size: 48px; // Tamaño de los botones grandes
+$btn-radius: 50%; // Radio del borde para los botones (circular)
+
+// Estilos para hover
+$hover-opacity: 0.85;
+
+
+
+
+

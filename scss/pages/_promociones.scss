@@ -1,0 +1,74 @@
+main {
+  .container {
+    padding: $container-padding;
+    
+    .row {
+      margin-top: $row-margin-top-bottom;
+      margin-bottom: $row-margin-top-bottom;
+
+      .col-lg-4 {
+        margin-bottom: $card-margin-bottom;
+
+        .flip-card {
+          width: $card-width;
+          height: $card-height;
+
+          .flip-card-inner {
+            width: 100%;
+            height: 100%;
+
+            .flip-card-front {
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+
+            .flip-card-back {
+              background-color: $background-color-card-back;
+              color: $text-color-card-back;
+              text-align: center;
+              padding: $card-padding;
+              font-size: $font-size-card-text;
+              overflow-y: auto;
+
+              h2 {
+                font-size: $font-size-heading;
+                margin: $heading-margin;
+                color: $heading-color-card-back;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      margin-top: $row-margin-top-bottom;
+      text-align: center;
+
+      h2 {
+        margin-bottom: 2rem;
+      }
+
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            img {
+              width: 100%;
+              height: $carousel-height;
+              object-fit: cover;
+              background-color: $carousel-bg-color;
+            }
+          }
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+          background-color: $carousel-control-color;
+        }
+      }
+    }
+  }
+}
